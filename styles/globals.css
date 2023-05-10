@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply mb-6 text-3xl font-bold;
+  }
+  h2 {
+    @apply text-2xl font-semibold;
+  }
+  p {
+    @apply mb-4;
+  }
+  a {
+    @apply text-fuchsia-600 hover:text-fuchsia-800 hover:underline hover:underline-offset-2;
+  }
+  input,
+  textarea,
+  select {
+    @apply border border-gray-300 rounded-md shadow-sm bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-fuchsia-500 px-4 py-2;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
