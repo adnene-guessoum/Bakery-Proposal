@@ -14,7 +14,7 @@ const ContactCardFooter = (): JSX.Element => {
 
       <div className="flex flex-wrap items-start gap-2">
         <FaEnvelope className="text-3xl text-white" />
-        <p className="text-sm text-white">jas@email.com</p>
+        <p className="text-sm text-white">cakeShop@email.com</p>
       </div>
 
       <div className="flex flex-wrap items-start gap-2">

@@ -18,7 +18,7 @@ const Footer = (): JSX.Element => {
           <p className="text-sm text-white">
             © 2021{' '}
             <Link href="/" className="text-white hover:text-gray-300">
-              Expert Auto
+              Au bon gâteau
             </Link>
             . All Rights Reserved.
           </p>

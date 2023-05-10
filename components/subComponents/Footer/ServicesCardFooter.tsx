@@ -11,31 +11,31 @@ const ServicesCardFooter = (): JSX.Element => {
         <li className="text-sm text-white">
           <a className="text-white flex" href="/services">
             <BiChevronRight size={16} />
-            Test diagnostique
+            Mariages
           </a>
         </li>
         <li className="text-sm text-white">
           <a className="text-white flex" href="/services">
             <BiChevronRight size={16} />
-            Entretien moteur
+            Célébrations
           </a>
         </li>
         <li className="text-sm text-white">
           <a className="text-white flex" href="/services">
             <BiChevronRight size={16} />
-            Changement Pneumatique
+            Anniversaires
           </a>
         </li>
         <li className="text-sm text-white">
           <a className="text-white flex" href="/services">
             <BiChevronRight size={16} />
-            Vidange huile
+            Réceptions
           </a>
         </li>
         <li className="text-sm text-white">
           <a className="text-white flex" href="/services">
             <BiChevronRight size={16} />
-            Nettoyage
+            Cocktails
           </a>
         </li>
       </ul>
